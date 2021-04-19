@@ -8,7 +8,7 @@ class CoglionCase
 {
     public static function format(string $src): string
     {
-        for ($i=0; $i < strlen($src); $i++) { 
+        for ($i = 0; $i < strlen($src); $i++) {
             if ($i % 2 === 0) {
                 $src[$i] = strtoupper($src[$i]);
             } else {
