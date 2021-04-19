@@ -1,0 +1,47 @@
+{
+    "name": "imatto/coglion-case",
+    "description": "Type characters very coglionly.",
+    "type": "library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Andrea Molinari",
+            "homepage": "https://www.github.com/AndreaMolinari",
+            "role": "'n coglione"
+        },
+        {
+            "name": "Damiano Pellegrini",
+            "homepage": "https://www.github.com/DamianoPellegrini",
+            "role": "'n coglione"
+        },
+        {
+            "name": "Thomas Severini",
+            "homepage": "https://www.github.com/Hackjaku",
+            "role": "'n coglione"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CoglionCase\\": "src/CoglionCase"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CoglionCase\\": "tests/TestCase"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "main"
+        }
+    }
+}
